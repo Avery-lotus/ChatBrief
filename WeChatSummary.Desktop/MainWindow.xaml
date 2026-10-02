@@ -1190,11 +1190,15 @@
                                             Margin="0,22,0,0">
                                         <StackPanel>
                                             <TextBlock Text="更新日志" FontSize="16" FontWeight="SemiBold" Foreground="#143325"/>
-                                            <TextBlock Text="2026/10/01  优化首页定位文案，统一为本地开源工具方向。"
+                                            <TextBlock Text="2026/10/02  分析页升级为“聚焦 / 对照”：聚焦单个群聊或好友生成总结，对照多个同类对象查看差异。"
                                                        TextWrapping="Wrap" Foreground="#4B6356" Margin="0,12,0,0" LineHeight="22"/>
-                                            <TextBlock Text="2026/10/01  群聊原文支持按发言人筛选，多人群聊可搜索发言人。"
+                                            <TextBlock Text="2026/10/02  洞察页接入本地消息数据库，支持趋势、排行、关系、消息类型和自然语言提问。"
                                                        TextWrapping="Wrap" Foreground="#4B6356" Margin="0,8,0,0" LineHeight="22"/>
-                                            <TextBlock Text="2026/09/30  支持群聊总结、好友分析、聊天文本导入和 Markdown 导出。"
+                                            <TextBlock Text="2026/10/01  支持微信 4.1.9.57 本地读取，并保留新版微信的文本导入入口。"
+                                                       TextWrapping="Wrap" Foreground="#4B6356" Margin="0,8,0,0" LineHeight="22"/>
+                                            <TextBlock Text="2026/10/01  原文证据可定位、发言人可筛选，Markdown 导出会自动清理证据编号。"
+                                                       TextWrapping="Wrap" Foreground="#4B6356" Margin="0,8,0,0" LineHeight="22"/>
+                                            <TextBlock Text="2026/09/30  设置页支持用户自填 AI API Key，并显示服务返回的当前可用额度。"
                                                        TextWrapping="Wrap" Foreground="#4B6356" Margin="0,8,0,0" LineHeight="22"/>
                                         </StackPanel>
                                     </Border>
