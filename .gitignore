@@ -1,0 +1,39 @@
+# Build output
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+
+# Local runtime and packaged artifacts
+.dotnet/
+publish/
+dist/
+release/
+*.zip
+*.7z
+*.msix
+*.appx
+
+# Local app data and databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.bak
+
+# User/private config
+appsettings.*.json
+*.local.json
+*.secrets.json
+.env
+.env.*
+
+# OS/editor files
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
